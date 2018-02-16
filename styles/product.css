@@ -1,0 +1,425 @@
+.container{
+  width: 1170px;
+  margin : 30px auto;
+}
+
+body{
+  position: relative;
+}
+
+.personnal{
+  width : 250px;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+.personnal img{
+  width: 40px;
+}
+/* Start of the header */
+
+header{
+  background-color: #efeae4;
+}
+
+nav.program{
+  display: flex;
+  justify-content: center;
+ }
+
+nav.program ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+nav.program ul:first-of-type{
+  margin-right: 150px ;
+}
+
+nav.program ul li{
+  list-style: none;
+  position: relative;
+}
+
+nav.program ul li a{
+  display: block;
+  margin-right: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition:all 0.2s ease-in;
+  color : black ;
+  font-family: 'Antic Didone', serif;
+}
+
+nav.program ul li a:hover{
+  opacity: 0.5;
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+}
+
+.logo{
+  position: absolute;
+  top:-29px;
+  width: 80px;
+}
+/* End of the header */
+
+.rightPart{
+  height: 670px;
+  width : 570px;
+  float: right;
+}
+
+.description{
+  width: 570px;
+  height: 426px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.description h2{
+  padding-top: 10px;
+  text-decoration: underline;
+  text-align: center;
+  font-family: 'Antic Didone', serif;
+
+}
+.description p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.description form{
+  position : relative;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.description input{
+  position: absolute;
+  top: 0px;
+  margin-left: 75px;
+  width: 50px;
+
+}
+.description button{
+  position: absolute;
+  background-color: #efeae4;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  padding : 7.5px 10px;
+  font-family: 'Roboto', sans-serif;
+  top: 0px;
+  right: 30px;
+}
+
+.description button:hover{
+  opacity: 0.5;
+}
+
+.recommandation{
+  text-align: center;
+  width: 570px;
+  height: 210px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-family: 'Roboto', sans-serif;
+}
+
+.recommandation h2{
+  text-decoration: underline;
+  font-family: 'Antic Didone', serif;
+}
+
+.profile{
+  width : 115px;
+  float: left;
+}
+.profile img{
+  width: 100px;
+  border-radius: 50px;
+}
+.profile p{
+  text-align: center;
+}
+
+.commentary{
+  width: 416px;
+  margin-left: 110px;
+  padding-top: 20px;
+}
+
+.leftPart{
+  height: 655px;
+  width: 570px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background: #ffffff;
+  float: left;
+  margin-top: 30px;
+}
+.slider{
+  width: 570px;
+  height: 540px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider .slide{
+  width: 570px;
+  height: 600px;
+  position: relative;
+}
+
+.slider .slide .imgSlides{
+  width: 1172px;
+  height: 450px;
+  will-change: auto;
+}
+.slider button.back{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.slider button.next{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.littleImage{
+  width: 100px;
+  height: 100px;
+}
+
+.littleScreen{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+/* Start of the footer */
+
+footer{
+  width : 200%;
+  clear: both;
+}
+
+.footerContainer{
+  width : 167px ;
+  display: block;
+  float: left;
+}
+
+.footerContainer h3{
+  border-style: solid;
+  border-width: 0px 0px 2px 0px ;
+  padding : 5px ;
+  font-family: 'Antic Didone', serif;
+}
+
+.footerContainer img{
+  width : 30px ;
+  display: inline;
+}
+
+.footerContainer img:hover{
+  opacity: 0.5;
+}
+
+.footerContainer input{
+  border: none ;
+  background-color: #f7f7f7;
+  width: 150px ;
+  height: 30px ;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footerContainer button{
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  padding : 7.5px 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footerContainer button:hover{
+  opacity: 0.5 ;
+}
+
+.footerContainer p{
+  font-family: 'Roboto', sans-serif;
+}
+
+.footerContainer a{
+  font-family: 'Roboto', sans-serif;
+  color : black;
+  text-decoration: none ;
+}
+.void{
+  width : 150px;
+  visibility: hidden;
+  float: left;
+}
+/* Start of the responsive */
+
+/* For Ipad : */
+@media screen and (min-width : 781px) and (max-width: 1025px){
+  /* header */
+    .container{
+      width: 975px;
+    }
+    .rightPart{
+      width: 525px;
+    }
+    .rightPart .description{
+      width: 520px;
+    }
+      .rightPart .description p{
+        font-size: 15px;
+      }
+      .rightPart .recommandation{
+        width: 520px;
+      }
+    .leftPart{
+      width: 425px;
+    }
+      .leftPart .slider{
+        width: 425px;
+      }
+      .leftPart .slider .littleScreen{
+        width: 425px;
+      }
+  /* footer */
+    .void{
+      width: 5%;
+    }
+  .personnal{
+    position:fixed;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width : 40px;
+    top: 125px;
+  }
+}
+
+@media screen and (min-width: 668px) and (max-width: 780px){
+  .container{
+    width: 750px;
+  }
+  nav.program ul:first-of-type{
+    margin-right: 0px ;
+  }
+  nav.program ul li a{
+    padding: 10px 7.5px;
+  }
+  nav.program ul:first-of-type{
+    margin-right: 60px ;
+  }
+  .rightPart{
+    width: 750px;
+  }
+  .rightPart .description{
+    width: 750px;
+  }
+    .rightPart .description p{
+      font-size: 16px;
+    }
+    .rightPart .recommandation{
+      width: 750px;
+    }
+  .leftPart{
+    width: 750px;
+  }
+    .leftPart .slider{
+      width: 750px;
+    }
+    .leftPart .slider .littleScreen{
+      width: 750px;
+    }
+
+  .void{
+    width: 1.5%;
+  }
+  .personnal{
+    position:fixed;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width : 40px;
+    top: 125px;
+  }
+}
+/* For IPhone : */
+@media screen and (min-width: 100px) and (max-width: 667px){
+  /* Header */
+    .container{
+      width : 360px ;
+    }
+    nav.program ul:first-of-type{
+      margin-right: 0px ;
+    }
+    .logo{
+      width: 60px;
+    }
+    .rightPart{
+      clear: both;
+      float: left;
+      width: 360px;
+    }
+    .rightPart .description{
+      width: 360px;
+    }
+      .rightPart .description p{
+        font-size: 14px;
+      }
+      .rightPart .recommandation{
+        width: 360px;
+      }
+      .rightPart .recommandation .commentary p{
+        width: 240px;
+      }
+
+    .leftPart{
+      width: 360px;
+      height: 400px;
+    }
+      .leftPart .slider{
+        width: 360px;
+        height: 300px;
+      }
+      .leftPart .littleScreen .littleImage{
+        width: 80px;
+        height: 80px;
+      }
+  /* Footer */
+    .void{
+      width: 3%;
+    }
+    footer{
+      width: 360px;
+    }
+    footer .footerContainer{
+      height: 200px;
+      float: left;
+    }
+    .personnal{
+      position:fixed;
+      background-color: white;
+      border-style: solid;
+      border-width: 2px;
+      border-color: black;
+      width : 40px;
+      top: 125px;
+    }
+}
