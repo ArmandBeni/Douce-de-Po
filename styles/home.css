@@ -101,6 +101,8 @@ nav.program ul:first-child li:first-child{
   height: 450px;
   max-height: 450px;
   position: relative;
+  color: black;
+  text-decoration: none;
 }
 .container .slider .slide .knowMore{
   width: auto;
@@ -174,6 +176,7 @@ nav.program ul:first-child li:first-child{
   z-index: 1;
   cursor: pointer;
   transition: 0.2s ease-in;
+  text-decoration: none;
 
 }
 
@@ -182,6 +185,7 @@ nav.program ul:first-child li:first-child{
   border-color:  #383736;
   box-shadow: 0px 0px 0px 0px #da8caf;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .btn2:before {
@@ -194,11 +198,13 @@ nav.program ul:first-child li:first-child{
   top: 100%;
   z-index: -1;
   -webkit-transition: top 0.09s ease-in;
+  text-decoration: none;
 }
 
 .btn2:hover:before {
   top: 0;
   border-color:  #383736;
+  text-decoration: none;
 }
 /* End of slider */
 
@@ -221,12 +227,12 @@ nav.program ul:first-child li:first-child{
   font-family: 'Antic Didone', serif;
   font-weight: bold;
   position: relative;
-
+  text-decoration: none;
 }
 
 .apropos2:hover {
   cursor: pointer;
-  
+  text-decoration: none;
 }
 
 .stick{
@@ -342,7 +348,7 @@ nav.program ul:first-child li:first-child{
 	margin: auto;
 	font-family: 'Antic Didone', serif;
 	font-size: 10pt;
-
+  text-decoration: none;
 }
 .ImgContainer{
 	margin:auto;
